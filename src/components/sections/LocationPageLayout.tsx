@@ -15,7 +15,7 @@ export default function LocationPageLayout({ location }: { location: LocationDat
         ctaHref="/contact"
         secondaryCtaText="Call (469) 535-9905"
         secondaryCtaHref="tel:4695359905"
-        imageSrc={`https://picsum.photos/seed/${location.slug}/1920/800`}
+        imageSrc={`/prosper-photos-named/${location.slug}.jpg`}
         imageAlt={`Concrete services in ${location.community}, Prosper TX`}
         height="short"
       />

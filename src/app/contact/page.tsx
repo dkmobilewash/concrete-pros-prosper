@@ -21,7 +21,7 @@ export default function ContactPage() {
       <HeroSection
         title="Get Your Free Concrete Estimate"
         subtitle="Fill out the form below or give us a call. We respond to all inquiries within 1 business day."
-        imageSrc="https://picsum.photos/seed/contact/1920/800"
+        imageSrc="/prosper-photos-named/hero-contact.jpg"
         imageAlt="Contact Concrete Pros Of Prosper"
         height="short"
       />

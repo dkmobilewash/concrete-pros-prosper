@@ -3,12 +3,12 @@ import Link from 'next/link'
 import SectionHeading from '@/components/ui/SectionHeading'
 
 const services = [
-  { name: 'Driveways', slug: 'driveways', image: 'https://picsum.photos/seed/driveways/800/600', description: 'Custom concrete driveways with broom finish, exposed aggregate, or stamped patterns. Built for Prosper\'s curb appeal standards.' },
-  { name: 'Patios', slug: 'patios', image: 'https://picsum.photos/seed/patios/800/600', description: 'Extend your outdoor living space with a concrete patio that handles Texas weather and matches your home\'s style.' },
-  { name: 'Pool Decks', slug: 'pool-decks', image: 'https://picsum.photos/seed/pooldecks/800/600', description: 'Slip-resistant, cool-to-the-touch pool deck surfaces built for Prosper\'s long swimming season.' },
-  { name: 'Block Walls', slug: 'block-walls', image: 'https://picsum.photos/seed/blockwalls/800/600', description: 'Retaining walls, privacy walls, and landscape walls engineered for North Texas terrain and drainage.' },
-  { name: 'Foundations & Slabs', slug: 'foundations-slabs', image: 'https://picsum.photos/seed/foundations/800/600', description: 'Engineered foundations and slabs designed specifically for North Texas expansive clay soils.' },
-  { name: 'Commercial Concrete', slug: 'commercial-concrete', image: 'https://picsum.photos/seed/commercial/800/600', description: 'Parking lots, sidewalks, ADA ramps, and warehouse slabs for Prosper\'s growing commercial corridor.' },
+  { name: 'Driveways', slug: 'driveways', image: '/prosper-photos-named/driveway-1.jpg', description: 'Custom concrete driveways with broom finish, exposed aggregate, or stamped patterns. Built for Prosper\'s curb appeal standards.' },
+  { name: 'Patios', slug: 'patios', image: '/prosper-photos-named/patio-1.jpg', description: 'Extend your outdoor living space with a concrete patio that handles Texas weather and matches your home\'s style.' },
+  { name: 'Pool Decks', slug: 'pool-decks', image: '/prosper-photos-named/pool-deck-1.jpg', description: 'Slip-resistant, cool-to-the-touch pool deck surfaces built for Prosper\'s long swimming season.' },
+  { name: 'Block Walls', slug: 'block-walls', image: '/prosper-photos-named/block-wall-1.jpg', description: 'Retaining walls, privacy walls, and landscape walls engineered for North Texas terrain and drainage.' },
+  { name: 'Foundations & Slabs', slug: 'foundations-slabs', image: '/prosper-photos-named/foundation-1.jpg', description: 'Engineered foundations and slabs designed specifically for North Texas expansive clay soils.' },
+  { name: 'Commercial Concrete', slug: 'commercial-concrete', image: '/prosper-photos-named/commercial-1.jpg', description: 'Parking lots, sidewalks, ADA ramps, and warehouse slabs for Prosper\'s growing commercial corridor.' },
 ]
 
 export default function ServicesGrid() {

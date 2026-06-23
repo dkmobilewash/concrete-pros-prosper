@@ -6,20 +6,20 @@ import Image from 'next/image'
 const categories = ['All', 'Driveways', 'Patios', 'Pool Decks', 'Block Walls', 'Foundations', 'Commercial']
 
 const galleryItems = [
-  { src: 'https://picsum.photos/seed/g1/800/600', category: 'Driveways', alt: 'Completed concrete driveway in Prosper TX' },
-  { src: 'https://picsum.photos/seed/g2/800/600', category: 'Driveways', alt: 'Stamped concrete driveway in Windsong Ranch' },
-  { src: 'https://picsum.photos/seed/g3/800/600', category: 'Patios', alt: 'Backyard concrete patio in Star Trail' },
-  { src: 'https://picsum.photos/seed/g4/800/600', category: 'Patios', alt: 'Stamped concrete patio in Prosper' },
-  { src: 'https://picsum.photos/seed/g5/800/600', category: 'Pool Decks', alt: 'Cool deck pool surround in Prosper TX' },
-  { src: 'https://picsum.photos/seed/g6/800/600', category: 'Pool Decks', alt: 'Textured concrete pool deck in Whitley Place' },
-  { src: 'https://picsum.photos/seed/g7/800/600', category: 'Block Walls', alt: 'Retaining wall in Gentle Creek Estates' },
-  { src: 'https://picsum.photos/seed/g8/800/600', category: 'Block Walls', alt: 'Decorative block wall in Prosper' },
-  { src: 'https://picsum.photos/seed/g9/800/600', category: 'Foundations', alt: 'Garage slab foundation pour in Frontier Estates' },
-  { src: 'https://picsum.photos/seed/g10/800/600', category: 'Foundations', alt: 'Workshop slab in Prosper TX' },
-  { src: 'https://picsum.photos/seed/g11/800/600', category: 'Commercial', alt: 'Commercial parking lot concrete in Prosper' },
-  { src: 'https://picsum.photos/seed/g12/800/600', category: 'Commercial', alt: 'ADA compliant sidewalk in Prosper TX' },
-  { src: 'https://picsum.photos/seed/g13/800/600', category: 'Driveways', alt: 'Exposed aggregate driveway in Prosper' },
-  { src: 'https://picsum.photos/seed/g14/800/600', category: 'Patios', alt: 'Large entertainment patio in Lakes of Prosper' },
+  { src: '/prosper-photos-named/driveway-1.jpg', category: 'Driveways', alt: 'Completed concrete driveway in Prosper TX' },
+  { src: '/prosper-photos-named/driveway-2.jpg', category: 'Driveways', alt: 'Stamped concrete driveway in Windsong Ranch' },
+  { src: '/prosper-photos-named/driveway-3.jpg', category: 'Driveways', alt: 'Exposed aggregate driveway in Prosper' },
+  { src: '/prosper-photos-named/patio-1.jpg', category: 'Patios', alt: 'Backyard concrete patio in Star Trail' },
+  { src: '/prosper-photos-named/patio-2.jpg', category: 'Patios', alt: 'Stamped concrete patio in Prosper' },
+  { src: '/prosper-photos-named/patios-hero.jpg', category: 'Patios', alt: 'Large entertainment patio in Lakes of Prosper' },
+  { src: '/prosper-photos-named/pool-deck-1.jpg', category: 'Pool Decks', alt: 'Cool deck pool surround in Prosper TX' },
+  { src: '/prosper-photos-named/pool-deck-2.jpg', category: 'Pool Decks', alt: 'Textured concrete pool deck in Whitley Place' },
+  { src: '/prosper-photos-named/block-wall-1.jpg', category: 'Block Walls', alt: 'Retaining wall in Gentle Creek Estates' },
+  { src: '/prosper-photos-named/block-wall-2.jpg', category: 'Block Walls', alt: 'Decorative block wall in Prosper' },
+  { src: '/prosper-photos-named/foundation-1.jpg', category: 'Foundations', alt: 'Garage slab foundation pour in Frontier Estates' },
+  { src: '/prosper-photos-named/foundation-2.jpg', category: 'Foundations', alt: 'Workshop slab in Prosper TX' },
+  { src: '/prosper-photos-named/commercial-1.jpg', category: 'Commercial', alt: 'Commercial parking lot concrete in Prosper' },
+  { src: '/prosper-photos-named/commercial-hero.jpg', category: 'Commercial', alt: 'Commercial concrete work in Prosper TX' },
 ]
 
 export default function GalleryGrid() {

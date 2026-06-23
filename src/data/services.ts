@@ -6,7 +6,7 @@ export const services: ServiceData[] = [
     name: "Driveways",
     metaTitle: "Concrete Driveways in Prosper TX | Concrete Pros Of Prosper",
     metaDescription: "Custom concrete driveways for Prosper homes. Broom finish, exposed aggregate, and stamped options. Licensed, insured, free estimates.",
-    heroImage: "https://picsum.photos/seed/driveways/1920/800",
+    heroImage: "/prosper-photos-named/driveways-hero.jpg",
     heroSubtitle: "Custom pours built for Prosper's climate and curb appeal standards.",
     intro: [
       "Prosper's communities — Windsong Ranch, Star Trail, Whitley Place — are known for exceptional curb appeal. A well-poured concrete driveway is often the first thing neighbors and visitors notice. In North Texas, the combination of scorching summers and occasional freeze-thaw cycles demands proper thickness (minimum 4 inches, 5 inches for heavier vehicles), steel reinforcement, and a quality sealer.",
@@ -40,7 +40,7 @@ export const services: ServiceData[] = [
     name: "Patios",
     metaTitle: "Concrete Patios in Prosper TX | Concrete Pros Of Prosper",
     metaDescription: "Custom concrete patios for Prosper homes. Stamped, stained, and broom finish options. Extend your outdoor living space. Free estimates.",
-    heroImage: "https://picsum.photos/seed/patios/1920/800",
+    heroImage: "/prosper-photos-named/patios-hero.jpg",
     heroSubtitle: "Extend your outdoor living space with concrete built for Texas weather.",
     intro: [
       "Outdoor living is part of everyday life in Prosper. Whether you're in Gentle Creek Estates with a large backyard or a newer home in Tanner's Mill, a well-designed concrete patio extends your living space and handles Texas weather without the upkeep of wood decking or pavers.",
@@ -74,7 +74,7 @@ export const services: ServiceData[] = [
     name: "Pool Decks",
     metaTitle: "Pool Deck Concrete in Prosper TX | Concrete Pros Of Prosper",
     metaDescription: "Slip-resistant concrete pool decks for Prosper homes. Cool deck coatings, resurfacing, and new pours. Built for Texas pool season.",
-    heroImage: "https://picsum.photos/seed/pooldecks/1920/800",
+    heroImage: "/prosper-photos-named/pool-decks-hero.jpg",
     heroSubtitle: "Slip-resistant, cool-to-the-touch surfaces built for Prosper's long pool season.",
     intro: [
       "Prosper's long swimming season — often running from April through October — means pool decks see serious use. The right surface is about more than looks: it needs to be slip-resistant even when wet, stay cool enough to walk on barefoot at 100°F, and resist fading from chlorine splash and UV exposure.",
@@ -108,7 +108,7 @@ export const services: ServiceData[] = [
     name: "Block Walls",
     metaTitle: "Block Walls & Retaining Walls in Prosper TX | Concrete Pros",
     metaDescription: "CMU block walls, retaining walls, and privacy walls for Prosper properties. Engineered footings, permits handled. Free estimates.",
-    heroImage: "https://picsum.photos/seed/blockwalls/1920/800",
+    heroImage: "/prosper-photos-named/block-walls-hero.jpg",
     heroSubtitle: "Retaining walls, privacy walls, and landscape walls engineered for Prosper's terrain.",
     intro: [
       "Prosper's varied terrain — particularly in communities like Windsong Ranch and Gentle Creek Estates where lots are graded for drainage — frequently requires retaining walls to manage grade changes between properties, along fence lines, or around raised planting beds.",
@@ -142,7 +142,7 @@ export const services: ServiceData[] = [
     name: "Foundations & Slabs",
     metaTitle: "Concrete Foundations & Slabs in Prosper TX | Concrete Pros",
     metaDescription: "Engineered concrete foundations and slabs for Prosper's clay soils. Post-tension systems, garage slabs, workshop floors. Licensed and insured.",
-    heroImage: "https://picsum.photos/seed/foundations/1920/800",
+    heroImage: "/prosper-photos-named/foundations-hero.jpg",
     heroSubtitle: "Engineered foundations and slabs designed for North Texas expansive clay soils.",
     intro: [
       "North Texas's expansive clay soils — prevalent across Collin County and throughout the Prosper area — create unique challenges for concrete foundations and slabs. The soil moves with moisture changes, which is why post-tension slab systems are the standard in new residential construction here.",
@@ -176,7 +176,7 @@ export const services: ServiceData[] = [
     name: "Commercial Concrete",
     metaTitle: "Commercial Concrete in Prosper TX | Concrete Pros Of Prosper",
     metaDescription: "Commercial concrete services in Prosper — parking lots, sidewalks, ADA ramps, warehouse slabs. Bonded, insured, and code-compliant.",
-    heroImage: "https://picsum.photos/seed/commercial/1920/800",
+    heroImage: "/prosper-photos-named/commercial-hero.jpg",
     heroSubtitle: "Parking lots, sidewalks, ADA ramps, and commercial slabs for Prosper's growing business corridor.",
     intro: [
       "Prosper's rapid commercial growth — along Preston Road and US-380 corridors — has created consistent demand for quality commercial concrete work. We serve local businesses, property developers, and general contractors with parking lots, sidewalks, ADA-compliant ramps, dumpster pads, and warehouse slabs.",

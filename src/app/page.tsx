@@ -46,7 +46,7 @@ export default function HomePage() {
         ctaHref="/contact"
         secondaryCtaText="See Our Work"
         secondaryCtaHref="/gallery"
-        imageSrc="https://picsum.photos/seed/herohome/1920/1080"
+        imageSrc="/prosper-photos-named/hero-home.jpg"
         imageAlt="Professional concrete work in Prosper Texas"
         height="full"
       />

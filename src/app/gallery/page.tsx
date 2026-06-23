@@ -16,7 +16,7 @@ export default function GalleryPage() {
       <HeroSection
         title="Our Work in Prosper's Communities"
         subtitle="Browse completed projects from driveways to commercial flatwork across Prosper's premier neighborhoods."
-        imageSrc="https://picsum.photos/seed/gallery/1920/800"
+        imageSrc="/prosper-photos-named/hero-gallery.jpg"
         imageAlt="Concrete project gallery Prosper TX"
         height="short"
       />

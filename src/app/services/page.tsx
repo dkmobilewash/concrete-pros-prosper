@@ -17,7 +17,7 @@ export default function ServicesPage() {
       <HeroSection
         title="Professional Concrete Services in Prosper, TX"
         subtitle="From residential driveways to commercial parking lots — licensed, insured, and built for North Texas conditions."
-        imageSrc="https://picsum.photos/seed/services/1920/800"
+        imageSrc="/prosper-photos-named/hero-services.jpg"
         imageAlt="Concrete services in Prosper Texas"
         height="medium"
       />
