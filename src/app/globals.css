@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #0A0B0B;
+  --color-accent: #19711D;
+  --color-accent-dark: #145B18;
+  --color-deep: #090A0A;
+  --color-bg: #FCFBFA;
+  --color-mid: #4B5563;
+  --color-border: #E5E7EB;
+
+  --font-display: 'Oswald', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+  font-family: var(--font-body);
+}
+
+.clip-diagonal {
+  clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+}
+
+.concrete-texture {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+}

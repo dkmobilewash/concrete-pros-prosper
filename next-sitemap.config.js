@@ -1,0 +1,27 @@
+/** @type {import('next-sitemap').IConfig} */
+module.exports = {
+  siteUrl: 'https://concreteprosofprosper.com',
+  generateRobotsTxt: true,
+  changefreq: 'monthly',
+  priority: 0.7,
+  additionalPaths: async (config) => [
+    { loc: '/', priority: 1.0, changefreq: 'weekly' },
+    { loc: '/services', priority: 0.9, changefreq: 'monthly' },
+    { loc: '/services/driveways', priority: 0.9 },
+    { loc: '/services/patios', priority: 0.9 },
+    { loc: '/services/pool-decks', priority: 0.9 },
+    { loc: '/services/block-walls', priority: 0.9 },
+    { loc: '/services/foundations-slabs', priority: 0.9 },
+    { loc: '/services/commercial-concrete', priority: 0.9 },
+    { loc: '/gallery', priority: 0.8 },
+    { loc: '/contact', priority: 0.9 },
+    { loc: '/service-areas/windsong-ranch', priority: 0.8 },
+    { loc: '/service-areas/star-trail', priority: 0.8 },
+    { loc: '/service-areas/whitley-place', priority: 0.8 },
+    { loc: '/service-areas/gentle-creek-estates', priority: 0.8 },
+    { loc: '/service-areas/tanners-mill', priority: 0.8 },
+    { loc: '/service-areas/lakes-of-prosper', priority: 0.8 },
+    { loc: '/service-areas/frontier-estates', priority: 0.8 },
+    { loc: '/service-areas/prosper-trail', priority: 0.8 },
+  ],
+}
