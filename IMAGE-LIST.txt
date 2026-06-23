@@ -1,0 +1,240 @@
+CONCRETE PROS OF PROSPER — IMAGE LIST & SEARCH TERMS
+=====================================================
+
+Use these keywords when searching stock photo sites (Shutterstock, Adobe Stock,
+iStock, Unsplash, Pexels) or when naming your own project photos.
+
+File names must match EXACTLY — the website code references these paths.
+
+
+=============================================================================
+HERO IMAGES (1920x800 minimum, landscape, high-res)
+=============================================================================
+
+1. public/images/hero-home.jpg
+   Search: "concrete driveway luxury home aerial" OR "concrete contractor pouring driveway residential neighborhood"
+   Notes: Wide establishing shot. New concrete work in an upscale suburban neighborhood. Warm light preferred. Should feel premium, not industrial.
+
+2. public/images/services/driveways-hero.jpg
+   Search: "new concrete driveway suburban home" OR "fresh concrete driveway curb appeal"
+   Notes: Clean, finished concrete driveway on a nice home. Broom finish or stamped. Full driveway visible.
+
+3. public/images/services/patios-hero.jpg
+   Search: "stamped concrete patio backyard outdoor living" OR "concrete patio furniture outdoor dining"
+   Notes: Backyard patio with outdoor furniture. Stamped or decorative concrete. Inviting, livable feel.
+
+4. public/images/services/pool-decks-hero.jpg
+   Search: "concrete pool deck residential backyard" OR "cool deck swimming pool surround"
+   Notes: Pool with concrete deck surround. Textured/slip-resistant surface visible. Blue water contrast.
+
+5. public/images/services/block-walls-hero.jpg
+   Search: "concrete block retaining wall residential landscape" OR "CMU retaining wall backyard"
+   Notes: Finished block or retaining wall in a residential yard. Capstone visible. Clean, structural.
+
+6. public/images/services/foundations-hero.jpg
+   Search: "concrete slab foundation pour construction" OR "concrete foundation residential building"
+   Notes: Active pour or freshly finished slab. Rebar or forms visible OK. Shows scale and precision.
+
+7. public/images/services/commercial-hero.jpg
+   Search: "commercial concrete parking lot construction" OR "concrete sidewalk commercial building"
+   Notes: Commercial setting — parking lot, sidewalk, or building pad. Professional crew or finished work.
+
+8. public/images/hero-services.jpg
+   Search: "concrete finishing trowel worker" OR "concrete crew working residential"
+   Notes: Services overview page hero. Action shot of concrete work in progress. Crew visible.
+
+9. public/images/hero-gallery.jpg
+   Search: "completed concrete project residential" OR "beautiful stamped concrete patio"
+   Notes: Gallery page hero. Showcase-quality finished concrete work. Clean and polished.
+
+10. public/images/hero-contact.jpg
+    Search: "concrete contractor handshake customer" OR "construction estimate meeting homeowner"
+    Notes: Contact page hero. Friendly, professional interaction. Consultation or walkthrough feel.
+
+
+=============================================================================
+COMMUNITY/SERVICE AREA HERO IMAGES (1920x800 minimum, landscape)
+=============================================================================
+
+11. public/images/areas/windsong-ranch.jpg
+    Search: "master planned community Texas aerial" OR "luxury subdivision entrance Texas"
+    Notes: Upscale neighborhood, wide streets, manicured landscaping. Crystal Lagoon or resort-style pool a bonus.
+
+12. public/images/areas/star-trail.jpg
+    Search: "new construction neighborhood Texas" OR "modern suburban homes community"
+    Notes: Newer homes, trails, open green space. Family-friendly community feel.
+
+13. public/images/areas/whitley-place.jpg
+    Search: "established neighborhood mature trees homes" OR "tree-lined street upscale homes"
+    Notes: Mature trees, well-maintained homes, established feel. Not brand-new construction.
+
+14. public/images/areas/gentle-creek-estates.jpg
+    Search: "luxury estate homes golf course community" OR "large lot estate home Texas"
+    Notes: Large estate homes, golf course, gated feel. Premium, spacious properties.
+
+15. public/images/areas/tanners-mill.jpg
+    Search: "family neighborhood suburban homes" OR "suburban community homes pond"
+    Notes: Mix of homes, community pond, family-oriented. Middle to upper-middle range.
+
+16. public/images/areas/lakes-of-prosper.jpg
+    Search: "lakefront homes community" OR "waterfront residential neighborhood lake"
+    Notes: Homes near water, lake views, outdoor living emphasis.
+
+17. public/images/areas/frontier-estates.jpg
+    Search: "large lot rural residential property Texas" OR "acreage home workshop property"
+    Notes: Larger lots, rural character, space for outbuildings. Wide open feel.
+
+18. public/images/areas/prosper-trail.jpg
+    Search: "established residential street homes" OR "neighborhood street mature homes Texas"
+    Notes: Older established homes, character, well-kept. Community roots feel.
+
+
+=============================================================================
+SERVICE CARD THUMBNAILS (800x600 minimum, landscape)
+=============================================================================
+
+These appear in the services grid on the home page and services overview page.
+Can be cropped versions of the hero images above or separate photos.
+
+19. public/images/services/driveways.jpg
+    Search: "concrete driveway close up finish" OR "new driveway residential home"
+    Notes: Clean driveway shot showing finish texture. Tight framing on the concrete surface and home.
+
+20. public/images/services/patios.jpg
+    Search: "concrete patio backyard" OR "stamped concrete patio seating area"
+    Notes: Inviting patio space. Furniture or landscaping adds context.
+
+21. public/images/services/pool-decks.jpg
+    Search: "pool deck concrete texture" OR "swimming pool concrete surround"
+    Notes: Pool edge with textured concrete deck. Blue water + warm concrete contrast.
+
+22. public/images/services/block-walls.jpg
+    Search: "retaining wall concrete blocks residential" OR "landscape block wall garden"
+    Notes: Finished retaining or landscape wall. Caps installed, clean joints.
+
+23. public/images/services/foundations.jpg
+    Search: "concrete slab pour rebar" OR "foundation slab construction site"
+    Notes: Slab work — rebar grid, forms, or fresh pour. Shows structural work.
+
+24. public/images/services/commercial.jpg
+    Search: "commercial sidewalk concrete ADA" OR "parking lot concrete pour commercial"
+    Notes: Commercial-scale concrete — sidewalk, ramp, or parking area.
+
+
+=============================================================================
+GALLERY IMAGES (800x600 minimum, landscape)
+=============================================================================
+
+Driveways (3 images):
+25. public/images/gallery/driveway-1.jpg
+    Search: "broom finish concrete driveway completed" OR "standard concrete driveway home"
+    Notes: Classic broom-finish driveway. Clean, straight lines.
+
+26. public/images/gallery/driveway-2.jpg
+    Search: "stamped concrete driveway pattern" OR "decorative concrete driveway"
+    Notes: Stamped or decorative pattern driveway. Shows craftsmanship.
+
+27. public/images/gallery/driveway-3.jpg
+    Search: "exposed aggregate concrete driveway" OR "aggregate finish driveway residential"
+    Notes: Exposed aggregate finish. Textured, upscale look.
+
+Patios (3 images):
+28. public/images/gallery/patio-1.jpg
+    Search: "large stamped concrete patio outdoor kitchen" OR "backyard concrete patio Texas"
+    Notes: Spacious patio, possibly with outdoor kitchen or fire pit.
+
+29. public/images/gallery/patio-2.jpg
+    Search: "colored concrete patio backyard" OR "stained concrete patio design"
+    Notes: Stained or colored concrete. Shows color options.
+
+30. public/images/gallery/patio-3.jpg
+    Search: "small concrete patio backyard simple" OR "broom finish patio slab"
+    Notes: Simpler patio — shows range from basic to decorative.
+
+Pool Decks (2 images):
+31. public/images/gallery/pool-deck-1.jpg
+    Search: "cool deck pool surround finished" OR "textured pool deck concrete"
+    Notes: Completed pool deck with textured surface. Pool water visible.
+
+32. public/images/gallery/pool-deck-2.jpg
+    Search: "pool deck resurfacing concrete overlay" OR "decorative pool deck stamped"
+    Notes: Different style or angle from #31. Shows variety.
+
+Block Walls (2 images):
+33. public/images/gallery/block-wall-1.jpg
+    Search: "retaining wall concrete block finished" OR "tiered retaining wall residential"
+    Notes: Structural retaining wall with cap. Shows height and engineering.
+
+34. public/images/gallery/block-wall-2.jpg
+    Search: "decorative block wall landscape" OR "privacy wall concrete residential"
+    Notes: Decorative or privacy wall application. Different use case from #33.
+
+Foundations (2 images):
+35. public/images/gallery/foundation-1.jpg
+    Search: "garage slab concrete pour" OR "concrete slab workshop floor"
+    Notes: Garage or workshop slab — finished, smooth surface.
+
+36. public/images/gallery/foundation-2.jpg
+    Search: "concrete foundation pour residential" OR "post tension slab construction"
+    Notes: Foundation pour in progress or just completed. Scale visible.
+
+Commercial (2 images):
+37. public/images/gallery/commercial-1.jpg
+    Search: "commercial parking lot concrete new" OR "concrete parking lot striped"
+    Notes: Finished commercial parking lot or large flatwork area.
+
+38. public/images/gallery/commercial-2.jpg
+    Search: "ADA ramp concrete sidewalk commercial" OR "concrete sidewalk storefront"
+    Notes: Sidewalk, ADA ramp, or storefront concrete. Shows accessibility work.
+
+
+=============================================================================
+SEO / SOCIAL SHARING (1 image)
+=============================================================================
+
+39. public/og-image.jpg (1200x630, exact)
+    Search: N/A — create this as a branded graphic
+    Notes: Company logo/name "Concrete Pros Of Prosper" on a dark background with
+    the green accent color (#19711D). Include tagline "Prosper's Trusted Concrete
+    Contractors" and phone number (469) 535-9905. This is the image that appears
+    when the site is shared on Facebook, Twitter, LinkedIn, etc.
+
+
+=============================================================================
+FAVICON (1 image)
+=============================================================================
+
+40. public/favicon.ico (32x32 or multi-size ICO)
+    Search: N/A — create as a branded icon
+    Notes: Simple "CP" monogram or concrete-themed icon in green (#19711D) on
+    dark (#0A0B0B) background. Should be recognizable at small sizes.
+
+
+=============================================================================
+TOTAL: 40 images
+=============================================================================
+
+  Hero images:              10
+  Community area images:     8
+  Service card thumbnails:   6  (can reuse crops of hero images = 0 extra if reused)
+  Gallery images:           14
+  OG social sharing image:   1
+  Favicon:                   1
+                            --
+  TOTAL:                    40  (or 34 unique if you crop service thumbnails from heroes)
+
+
+=============================================================================
+IMAGE SPECS SUMMARY
+=============================================================================
+
+  Hero images:       1920x800px (home hero: 1920x1080px), JPEG, <300KB each
+  Area images:       1920x800px, JPEG, <300KB each
+  Card thumbnails:   800x600px, JPEG, <150KB each
+  Gallery images:    800x600px, JPEG, <150KB each
+  OG image:          1200x630px, JPEG or PNG, <200KB
+  Favicon:           32x32px (or multi-size .ico), <10KB
+
+  Preferred style:   Natural light, warm tones, residential settings
+  Avoid:             Heavy HDR, oversaturated colors, stock-photo watermarks
+  Format:            JPEG for photos, PNG for the OG image if it has text/graphics
