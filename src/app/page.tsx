@@ -8,10 +8,13 @@ import CTABanner from '@/components/sections/CTABanner'
 import { ShieldCheck, ClipboardList, Calendar, Star } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Concrete Pros Of Prosper | Driveways, Patios & More',
-  description: "Prosper's trusted concrete contractors. We pour driveways, patios, pool decks, and more across Prosper's premier communities. Free estimates.",
+  title: 'Concrete Contractors in Prosper TX | Driveways, Patios, Pool Decks & More',
+  description: 'Top-rated concrete contractors in Prosper, TX. We pour driveways, patios, pool decks, retaining walls & foundations for Windsong Ranch, Star Trail, Whitley Place & all Prosper communities. Licensed & insured. Free estimates — call (469) 535-9905.',
   openGraph: {
-    images: ['/og-image.jpg'],
+    title: 'Concrete Pros Of Prosper — #1 Concrete Contractors in Prosper TX',
+    description: 'Licensed concrete contractors serving Prosper\'s premier communities. Driveways, patios, pool decks, retaining walls & commercial concrete. Free estimates.',
+    url: 'https://concreteprosofprosper.com',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Concrete Pros Of Prosper — Professional Concrete Work in Prosper TX' }],
   },
   alternates: {
     canonical: 'https://concreteprosofprosper.com',
@@ -98,8 +101,13 @@ export default function HomePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
+            '@id': 'https://concreteprosofprosper.com/#business',
             name: 'Concrete Pros Of Prosper',
+            description: 'Licensed and insured concrete contractors serving Prosper, TX and surrounding communities. Specializing in driveways, patios, pool decks, retaining walls, foundations, and commercial concrete.',
+            url: 'https://concreteprosofprosper.com',
             telephone: '(469) 535-9905',
+            email: 'info@concreteprosofprosper.com',
+            image: 'https://concreteprosofprosper.com/og-image.jpg',
             address: {
               '@type': 'PostalAddress',
               addressLocality: 'Prosper',
@@ -107,11 +115,37 @@ export default function HomePage() {
               postalCode: '75078',
               addressCountry: 'US',
             },
-            areaServed: [
-              'Prosper', 'Windsong Ranch', 'Star Trail', 'Whitley Place',
-              'Gentle Creek Estates', "Tanner's Mill", 'Lakes of Prosper',
-              'Frontier Estates', 'Prosper Trail',
+            geo: {
+              '@type': 'GeoCoordinates',
+              latitude: 33.2362,
+              longitude: -96.8011,
+            },
+            openingHoursSpecification: [
+              { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '07:00', closes: '18:00' },
             ],
+            areaServed: [
+              { '@type': 'City', name: 'Prosper', containedInPlace: { '@type': 'State', name: 'Texas' } },
+              { '@type': 'Place', name: 'Windsong Ranch' },
+              { '@type': 'Place', name: 'Star Trail' },
+              { '@type': 'Place', name: 'Whitley Place' },
+              { '@type': 'Place', name: 'Gentle Creek Estates' },
+              { '@type': 'Place', name: "Tanner's Mill" },
+              { '@type': 'Place', name: 'Lakes of Prosper' },
+              { '@type': 'Place', name: 'Frontier Estates' },
+              { '@type': 'Place', name: 'Prosper Trail' },
+            ],
+            hasOfferCatalog: {
+              '@type': 'OfferCatalog',
+              name: 'Concrete Services',
+              itemListElement: [
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Concrete Driveways', url: 'https://concreteprosofprosper.com/services/driveways' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Concrete Patios', url: 'https://concreteprosofprosper.com/services/patios' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Pool Decks', url: 'https://concreteprosofprosper.com/services/pool-decks' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Block Walls & Retaining Walls', url: 'https://concreteprosofprosper.com/services/block-walls' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Foundations & Slabs', url: 'https://concreteprosofprosper.com/services/foundations-slabs' } },
+                { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Commercial Concrete', url: 'https://concreteprosofprosper.com/services/commercial-concrete' } },
+              ],
+            },
             priceRange: '$$',
           }),
         }}

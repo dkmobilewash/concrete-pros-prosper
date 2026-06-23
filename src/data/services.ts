@@ -4,8 +4,8 @@ export const services: ServiceData[] = [
   {
     slug: "driveways",
     name: "Driveways",
-    metaTitle: "Concrete Driveways in Prosper TX | Concrete Pros Of Prosper",
-    metaDescription: "Custom concrete driveways for Prosper homes. Broom finish, exposed aggregate, and stamped options. Licensed, insured, free estimates.",
+    metaTitle: "Concrete Driveway Contractors in Prosper TX | Free Estimates",
+    metaDescription: "Custom concrete driveways in Prosper, TX — broom finish, exposed aggregate & stamped designs. 4\"+ thick, rebar-reinforced & sealed for North Texas weather. Licensed & insured. Call (469) 535-9905.",
     heroImage: "/prosper-photos-named/driveways-hero.jpg",
     heroSubtitle: "Custom pours built for Prosper's climate and curb appeal standards.",
     intro: [
@@ -38,8 +38,8 @@ export const services: ServiceData[] = [
   {
     slug: "patios",
     name: "Patios",
-    metaTitle: "Concrete Patios in Prosper TX | Concrete Pros Of Prosper",
-    metaDescription: "Custom concrete patios for Prosper homes. Stamped, stained, and broom finish options. Extend your outdoor living space. Free estimates.",
+    metaTitle: "Concrete Patio Contractors in Prosper TX | Stamped & Stained",
+    metaDescription: "Custom concrete patios in Prosper, TX — stamped, stained & broom finish options to extend your outdoor living space. Built for Texas heat. Licensed & insured. Free estimates — (469) 535-9905.",
     heroImage: "/prosper-photos-named/patios-hero.jpg",
     heroSubtitle: "Extend your outdoor living space with concrete built for Texas weather.",
     intro: [
@@ -72,8 +72,8 @@ export const services: ServiceData[] = [
   {
     slug: "pool-decks",
     name: "Pool Decks",
-    metaTitle: "Pool Deck Concrete in Prosper TX | Concrete Pros Of Prosper",
-    metaDescription: "Slip-resistant concrete pool decks for Prosper homes. Cool deck coatings, resurfacing, and new pours. Built for Texas pool season.",
+    metaTitle: "Pool Deck Concrete Contractors in Prosper TX | Cool Deck & Resurfacing",
+    metaDescription: "Slip-resistant concrete pool decks in Prosper, TX — cool deck coatings, resurfacing & new pours. Up to 30°F cooler surfaces for Texas pool season. Licensed & insured. Call (469) 535-9905.",
     heroImage: "/prosper-photos-named/pool-decks-hero.jpg",
     heroSubtitle: "Slip-resistant, cool-to-the-touch surfaces built for Prosper's long pool season.",
     intro: [
@@ -106,8 +106,8 @@ export const services: ServiceData[] = [
   {
     slug: "block-walls",
     name: "Block Walls",
-    metaTitle: "Block Walls & Retaining Walls in Prosper TX | Concrete Pros",
-    metaDescription: "CMU block walls, retaining walls, and privacy walls for Prosper properties. Engineered footings, permits handled. Free estimates.",
+    metaTitle: "Retaining Walls & Block Wall Contractors in Prosper TX",
+    metaDescription: "CMU block walls, retaining walls & privacy walls in Prosper, TX — engineered footings, drainage solutions & permits handled. Licensed & insured. Free estimates — call (469) 535-9905.",
     heroImage: "/prosper-photos-named/block-walls-hero.jpg",
     heroSubtitle: "Retaining walls, privacy walls, and landscape walls engineered for Prosper's terrain.",
     intro: [
@@ -140,8 +140,8 @@ export const services: ServiceData[] = [
   {
     slug: "foundations-slabs",
     name: "Foundations & Slabs",
-    metaTitle: "Concrete Foundations & Slabs in Prosper TX | Concrete Pros",
-    metaDescription: "Engineered concrete foundations and slabs for Prosper's clay soils. Post-tension systems, garage slabs, workshop floors. Licensed and insured.",
+    metaTitle: "Concrete Foundations & Slab Contractors in Prosper TX",
+    metaDescription: "Engineered concrete foundations & slabs in Prosper, TX — post-tension systems, garage slabs, workshop floors built for North Texas clay soils. Code-compliant & permit-ready. Call (469) 535-9905.",
     heroImage: "/prosper-photos-named/foundations-hero.jpg",
     heroSubtitle: "Engineered foundations and slabs designed for North Texas expansive clay soils.",
     intro: [
@@ -174,8 +174,8 @@ export const services: ServiceData[] = [
   {
     slug: "commercial-concrete",
     name: "Commercial Concrete",
-    metaTitle: "Commercial Concrete in Prosper TX | Concrete Pros Of Prosper",
-    metaDescription: "Commercial concrete services in Prosper — parking lots, sidewalks, ADA ramps, warehouse slabs. Bonded, insured, and code-compliant.",
+    metaTitle: "Commercial Concrete Contractors in Prosper TX | Bonded & Insured",
+    metaDescription: "Commercial concrete services in Prosper, TX — parking lots, ADA ramps, sidewalks & warehouse slabs. Phased scheduling to minimize business disruption. Bonded & code-compliant. Call (469) 535-9905.",
     heroImage: "/prosper-photos-named/commercial-hero.jpg",
     heroSubtitle: "Parking lots, sidewalks, ADA ramps, and commercial slabs for Prosper's growing business corridor.",
     intro: [

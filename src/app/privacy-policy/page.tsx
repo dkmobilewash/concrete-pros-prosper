@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Concrete Pros Of Prosper',
-  description: 'Privacy policy for Concrete Pros Of Prosper. How we collect, use, and protect your information.',
+  title: 'Privacy Policy',
+  description: 'Privacy policy for Concrete Pros Of Prosper. Learn how we collect, use, and protect your personal information when you visit our website or submit an inquiry.',
+  robots: { index: false, follow: true },
   alternates: { canonical: 'https://concreteprosofprosper.com/privacy-policy' },
 }
 

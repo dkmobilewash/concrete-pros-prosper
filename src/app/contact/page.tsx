@@ -4,9 +4,14 @@ import ContactForm from '@/components/forms/ContactForm'
 import { Phone, Mail, Clock, MapPin, CheckCircle } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Contact Concrete Pros Of Prosper | Free Estimates',
-  description: 'Contact us for a free concrete estimate in Prosper, TX. Call (469) 535-9905 or fill out our form. We serve all of Prosper\'s communities.',
-  openGraph: { images: ['/og-image.jpg'] },
+  title: 'Contact Us — Free Concrete Estimates in Prosper TX',
+  description: 'Get a free concrete estimate in Prosper, TX. Call (469) 535-9905 or fill out our online form — we respond within 1 business day. Serving Windsong Ranch, Star Trail, Whitley Place & all Prosper communities.',
+  openGraph: {
+    title: 'Contact Concrete Pros Of Prosper | Free Estimates',
+    description: 'Get a free concrete estimate. Call (469) 535-9905 or fill out our form. We respond within 1 business day.',
+    url: 'https://concreteprosofprosper.com/contact',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Contact Concrete Pros Of Prosper for a free estimate' }],
+  },
   alternates: { canonical: 'https://concreteprosofprosper.com/contact' },
 }
 
@@ -120,8 +125,13 @@ export default function ContactPage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'LocalBusiness',
+            '@id': 'https://concreteprosofprosper.com/#business',
             name: 'Concrete Pros Of Prosper',
+            description: 'Licensed and insured concrete contractors in Prosper, TX. Free estimates for driveways, patios, pool decks, retaining walls & foundations.',
+            url: 'https://concreteprosofprosper.com/contact',
             telephone: '(469) 535-9905',
+            email: 'info@concreteprosofprosper.com',
+            image: 'https://concreteprosofprosper.com/og-image.jpg',
             address: {
               '@type': 'PostalAddress',
               addressLocality: 'Prosper',
@@ -129,12 +139,40 @@ export default function ContactPage() {
               postalCode: '75078',
               addressCountry: 'US',
             },
+            geo: {
+              '@type': 'GeoCoordinates',
+              latitude: 33.2362,
+              longitude: -96.8011,
+            },
+            openingHoursSpecification: [
+              { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '07:00', closes: '18:00' },
+            ],
             areaServed: [
-              'Prosper', 'Windsong Ranch', 'Star Trail', 'Whitley Place',
-              'Gentle Creek Estates', "Tanner's Mill", 'Lakes of Prosper',
-              'Frontier Estates', 'Prosper Trail',
+              { '@type': 'City', name: 'Prosper', containedInPlace: { '@type': 'State', name: 'Texas' } },
+              { '@type': 'Place', name: 'Windsong Ranch' },
+              { '@type': 'Place', name: 'Star Trail' },
+              { '@type': 'Place', name: 'Whitley Place' },
+              { '@type': 'Place', name: 'Gentle Creek Estates' },
+              { '@type': 'Place', name: "Tanner's Mill" },
+              { '@type': 'Place', name: 'Lakes of Prosper' },
+              { '@type': 'Place', name: 'Frontier Estates' },
+              { '@type': 'Place', name: 'Prosper Trail' },
             ],
             priceRange: '$$',
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://concreteprosofprosper.com' },
+              { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://concreteprosofprosper.com/contact' },
+            ],
           }),
         }}
       />

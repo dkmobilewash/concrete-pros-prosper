@@ -133,6 +133,63 @@ export default function ServicePageLayout({ service }: { service: ServiceData })
       )}
 
       <CTABanner />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: service.faq.map(item => ({
+              '@type': 'Question',
+              name: item.question,
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: item.answer,
+              },
+            })),
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Service',
+            name: service.name,
+            description: service.metaDescription,
+            provider: {
+              '@type': 'LocalBusiness',
+              '@id': 'https://concreteprosofprosper.com/#business',
+              name: 'Concrete Pros Of Prosper',
+              telephone: '(469) 535-9905',
+            },
+            areaServed: {
+              '@type': 'City',
+              name: 'Prosper',
+              containedInPlace: { '@type': 'State', name: 'Texas' },
+            },
+            url: `https://concreteprosofprosper.com/services/${service.slug}`,
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://concreteprosofprosper.com' },
+              { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://concreteprosofprosper.com/services' },
+              { '@type': 'ListItem', position: 3, name: service.name, item: `https://concreteprosofprosper.com/services/${service.slug}` },
+            ],
+          }),
+        }}
+      />
     </>
   )
 }

@@ -7,7 +7,12 @@ const service = services.find(s => s.slug === 'driveways')!
 export const metadata: Metadata = {
   title: service.metaTitle,
   description: service.metaDescription,
-  openGraph: { images: ['/og-image.jpg'] },
+  openGraph: {
+    title: service.metaTitle,
+    description: service.metaDescription,
+    url: 'https://concreteprosofprosper.com/services/driveways',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Concrete driveways in Prosper TX' }],
+  },
   alternates: { canonical: 'https://concreteprosofprosper.com/services/driveways' },
 }
 

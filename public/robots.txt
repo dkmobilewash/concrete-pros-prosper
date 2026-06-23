@@ -1,6 +1,9 @@
 # *
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /privacy-policy
+Disallow: /terms-of-service
 
 # Host
 Host: https://concreteprosofprosper.com

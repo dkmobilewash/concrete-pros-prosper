@@ -121,25 +121,47 @@ export default function LocationPageLayout({ location }: { location: LocationDat
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              {
-                '@type': 'ListItem',
-                position: 1,
-                name: 'Home',
-                item: 'https://concreteprosofprosper.com',
-              },
-              {
-                '@type': 'ListItem',
-                position: 2,
-                name: 'Service Areas',
-                item: 'https://concreteprosofprosper.com/service-areas',
-              },
-              {
-                '@type': 'ListItem',
-                position: 3,
-                name: location.community,
-                item: `https://concreteprosofprosper.com/service-areas/${location.slug}`,
-              },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://concreteprosofprosper.com' },
+              { '@type': 'ListItem', position: 2, name: 'Service Areas', item: 'https://concreteprosofprosper.com/service-areas' },
+              { '@type': 'ListItem', position: 3, name: location.community, item: `https://concreteprosofprosper.com/service-areas/${location.slug}` },
             ],
+          }),
+        }}
+      />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            '@id': 'https://concreteprosofprosper.com/#business',
+            name: 'Concrete Pros Of Prosper',
+            description: `Licensed concrete contractors serving ${location.community} in Prosper, TX. Driveways, patios, pool decks, retaining walls & foundations.`,
+            url: `https://concreteprosofprosper.com/service-areas/${location.slug}`,
+            telephone: '(469) 535-9905',
+            email: 'info@concreteprosofprosper.com',
+            address: {
+              '@type': 'PostalAddress',
+              addressLocality: 'Prosper',
+              addressRegion: 'TX',
+              postalCode: '75078',
+              addressCountry: 'US',
+            },
+            areaServed: {
+              '@type': 'Place',
+              name: `${location.community}, Prosper, TX`,
+            },
+            priceRange: '$$',
+            openingHoursSpecification: [
+              { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'], opens: '07:00', closes: '18:00' },
+            ],
+            review: {
+              '@type': 'Review',
+              reviewBody: location.testimonial.quote,
+              author: { '@type': 'Person', name: location.testimonial.name },
+              reviewRating: { '@type': 'Rating', ratingValue: 5, bestRating: 5 },
+            },
           }),
         }}
       />

@@ -20,12 +20,31 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://concreteprosofprosper.com'),
+  title: {
+    default: 'Concrete Pros Of Prosper | Concrete Contractors in Prosper TX',
+    template: '%s | Concrete Pros Of Prosper',
+  },
+  description: 'Licensed concrete contractors in Prosper, TX. Driveways, patios, pool decks, retaining walls, foundations & commercial concrete. Serving Windsong Ranch, Star Trail, Whitley Place & all Prosper communities. Free estimates — (469) 535-9905.',
+  keywords: ['concrete contractor Prosper TX', 'concrete driveway Prosper', 'stamped concrete Prosper TX', 'concrete patio Prosper', 'pool deck contractor Prosper', 'retaining wall Prosper TX', 'concrete foundation Prosper', 'commercial concrete Prosper TX', 'Windsong Ranch concrete', 'Star Trail concrete'],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-video-preview': -1, 'max-image-preview': 'large', 'max-snippet': -1 },
+  },
   openGraph: {
     siteName: 'Concrete Pros Of Prosper',
     locale: 'en_US',
     type: 'website',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Concrete Pros Of Prosper — Licensed Concrete Contractors in Prosper TX' }],
   },
-  twitter: { card: 'summary_large_image' },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Concrete Pros Of Prosper | Concrete Contractors in Prosper TX',
+    description: 'Licensed concrete contractors in Prosper, TX. Driveways, patios, pool decks & more. Free estimates — (469) 535-9905.',
+    images: ['/og-image.jpg'],
+  },
+  verification: {},
+  alternates: { canonical: 'https://concreteprosofprosper.com' },
 }
 
 export default function RootLayout({

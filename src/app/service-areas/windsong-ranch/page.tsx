@@ -7,7 +7,12 @@ const location = locations.find(l => l.slug === 'windsong-ranch')!
 export const metadata: Metadata = {
   title: location.metaTitle,
   description: location.metaDescription,
-  openGraph: { images: ['/og-image.jpg'] },
+  openGraph: {
+    title: location.metaTitle,
+    description: location.metaDescription,
+    url: `https://concreteprosofprosper.com/service-areas/${location.slug}`,
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: `Concrete contractors serving ${location.community}, Prosper TX` }],
+  },
   alternates: { canonical: `https://concreteprosofprosper.com/service-areas/${location.slug}` },
 }
 

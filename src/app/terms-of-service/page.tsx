@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Concrete Pros Of Prosper',
-  description: 'Terms of service for Concrete Pros Of Prosper website.',
+  title: 'Terms of Service',
+  description: 'Terms of service governing your use of the Concrete Pros Of Prosper website. Read our terms for website use, limitation of liability, and intellectual property.',
+  robots: { index: false, follow: true },
   alternates: { canonical: 'https://concreteprosofprosper.com/terms-of-service' },
 }
 
