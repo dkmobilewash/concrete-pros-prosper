@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://concreteprosofprosper.com
+
+# Sitemaps
+Sitemap: https://concreteprosofprosper.com/sitemap.xml
