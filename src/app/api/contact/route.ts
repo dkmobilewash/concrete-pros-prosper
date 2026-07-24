@@ -6,6 +6,21 @@ export async function POST(request: Request) {
     const body = await request.json()
     const { name, phone, email, community, service, description, referral } = body
 
+        // Forward to Zapier webhook for lead tracking
+        try {
+                await fetch('https://hooks.zapier.com/hooks/catch/20117350/44fmixd/', {
+                          method: 'POST',
+                          headers: { 'Content-Type': 'application/json' },
+                          body: JSON.stringify({
+                                      ...body,
+                                      website: 'Concrete Pros of Prosper',
+                                      submittedAt: new Date().toISOString(),
+                          }),
+                });
+        } catch (zapierError) {
+                console.error('[Zapier Webhook Error]', zapierError);
+        }
+
     await resend.emails.send({
       from: 'Concrete Pros Of Prosper <onboarding@resend.dev>',
       to: 'riverinthemix@gmail.com',
